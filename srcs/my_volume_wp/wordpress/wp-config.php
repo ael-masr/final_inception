@@ -38,13 +38,6 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-
-
-
-
-define('WP_HOME','https://localhost');
-define('WP_SITEURL','https://localhost');
-
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -56,15 +49,15 @@ define('WP_SITEURL','https://localhost');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          '3l|BC){|1&d 6?bm4qwtsd1O`V7H,dv,FFRbu_aA>5Jd#HY-e,=mv%TEZ:Iv,~o^' );
-define( 'SECURE_AUTH_KEY',   'JbpQ`jQob/>l!<W1peoB.}4yV$=Q5<B|tEL9Z}@vh(K3H76zM?.<>R}?vh:KbBmj' );
-define( 'LOGGED_IN_KEY',     'VUB9f)SD?DEV>,`LDSoM(;(;Pj6~%6]NDWd;f5W8_sA|hb#T@&Djsu<ITfOttLZJ' );
-define( 'NONCE_KEY',         '69}o]yYOI8=&FByz$q,oWx*.R2!a&R?KI<R{Fx4/|p Dp:u^B=Fc2Xm{~//BRna#' );
-define( 'AUTH_SALT',         'bOD#LwE60?si*nN,z=Y3REN3.|SX+!`ac`kC7l4T{Qx<}QSuU5sIBTp^C@4CHsmK' );
-define( 'SECURE_AUTH_SALT',  '{n;t1x@t|=W1j25J_Sk`m81I>3gWf94)L7j3xz@pI1Sl-,.cd+uE|u#92eyUpt %' );
-define( 'LOGGED_IN_SALT',    '`72Qluz&PX4Ild.$)%+rK5BP@8,v%+dY#0kx~q=a~o=wtB;{p6W}Y)x8`A-u{*t#' );
-define( 'NONCE_SALT',        '[hh49VpDw1?h`_6<$)bK&j`X6M!3<9/v,{[jZY=qc@LWX?qa8g/VEUqc[qeS?08v' );
-define( 'WP_CACHE_KEY_SALT', 'VEBc4:3D,g%Iphzlbf-d^H:8{Z?,tHFSMfR<HD$dib5YPg!?3e`,O#@*m6O(Cm$D' );
+define( 'AUTH_KEY',          'o G2]O(f2+?I{cZuveUyzqKuowz$UKJ|6-,RT`Xcjr[Fp)q/S_SV] Ppo}6oRd2Y' );
+define( 'SECURE_AUTH_KEY',   'DH_,3jEo2IT,&CgKwLbOhbkRf*h`kj-aEnbG[mcR:eu)]XDsxjuBC>(KLMnCm@o6' );
+define( 'LOGGED_IN_KEY',     '&b_Akpu_alORqWfgGDJy[.?3#Mv|4{$/y@j,uI?*<U3ts4~:PQv ,Ce_e^jr<Vcu' );
+define( 'NONCE_KEY',         'MO?U0$/k5,|t}@rW4Y[?q=EIzO6+pKBMYBNY?+$r_JqIqj=~vtePf?G_.M?,#[k|' );
+define( 'AUTH_SALT',         'LBaLISWtltj{) Z!H=yfr)}N(AD<sVXoT#2(;clL>iluFjM5prIo_R( j,NC%8<@' );
+define( 'SECURE_AUTH_SALT',  '_Zs#JdRH|ec0<7twbR=U&&?p=q)1ZBD_Fjk|s[x_ao<Zxh1VIIb~P!T:v&aJgPPM' );
+define( 'LOGGED_IN_SALT',    '!T&fGP>])l^_]IYM/;3n|:Jta0Omjnk=BiJTDUE02sk36qjQyhGc&BEmFE_~8qC<' );
+define( 'NONCE_SALT',        'N3/Hu2sF,!n|;m@UWP:3v(lOx3c%+~*TB(zev[n.<z*1_&XTA4nKDpK %h:L`*v,' );
+define( 'WP_CACHE_KEY_SALT', 'g.el9<@(~|QD7e?+U4SUd?j/b7QT/iB143tx+QV1Sw>4~:CBinx#Ds=`0(_Ccjyt' );
 
 
 /**#@-*/
