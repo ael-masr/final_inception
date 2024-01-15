@@ -5,6 +5,7 @@ echo "[mysqld]" >> /etc/mysql/my.cnf
 echo "bind-address=0.0.0.0" >> /etc/mysql/my.cnf
 
 mysql_install_db --datadir=/var/lib/mysql
+chown -R mysql:mysql /var/lib/mysql
 
 mysqld_safe &
 mysql_pid=$!
