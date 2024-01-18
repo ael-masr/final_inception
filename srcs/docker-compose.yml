@@ -51,15 +51,4 @@ networks:
 # VOLUME
 volumes:
   db:
-    driver: local
-    driver_opts:
-      type: 'none'
-      o: 'bind'
-      device: ./my_volume_db  # Persistent volume
-
   WordPress:
-    driver: local
-    driver_opts:
-      type: 'none'
-      o: 'bind'
-      device: ./my_volume_wp
