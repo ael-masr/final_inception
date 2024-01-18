@@ -24,7 +24,6 @@ services:
     env_file: .env
     depends_on:
       - mariadb
-        #  condition: service_healthy
 
 
   mariadb:
@@ -36,12 +35,7 @@ services:
     volumes:
       - db:/var/lib/mysql
     env_file: .env
-    # healthcheck:
-      # test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-      # interval: 5s
-      # timeout: 10s
-      # retries: 3
-# 
+
 # NETWORK
 networks:
   mynetwork:
