@@ -18,8 +18,7 @@ wp core install     --path="/var/www/html/wordpress" --allow-root \
                     --admin_user=$WP_ADMIN_USER \
                     --admin_password=$WP_ADMIN_PASSWORD \
                     --admin_email=$WP_ADMIN_EMAIL
-# wp option home value
-# wp option 
+
 wp user create      --path="/var/www/html/wordpress" --allow-root \
                     $WP_USER $WP_EMAIL \
                     --user_pass=$WP_USER_PASS \
